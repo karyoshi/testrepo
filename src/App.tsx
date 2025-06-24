@@ -5,6 +5,7 @@ import Main from "./pages/Main";
 import Kontakte from "./pages/Kontakte";
 import Spieler from "./pages/Spieler";
 import MannschaftenPage from "./pages/MannschaftenPage";
+import Slider from "./components/Slider/Slider";
 
 function App() {
   return (
@@ -19,10 +20,13 @@ function App() {
       >
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/Mannschaften" element={<MannschaftenPage />} />
-          <Route path="/Kontakte" element={<Kontakte />} />
-          <Route path="/Spieler" element={<Spieler />} />
+          <Route path="/testrepo/Mannschaften" element={<MannschaftenPage />} />
+          <Route path="/testrepo/Kontakte" element={<Kontakte />} />
+          <Route path="/testrepo/Spieler" element={<Spieler />} />
         </Routes>
+      </div>
+      <div className="relative w-full mt-[navbar-height]">
+        <Slider />
       </div>
       <div
         style={{

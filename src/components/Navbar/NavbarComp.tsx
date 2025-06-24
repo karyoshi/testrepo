@@ -37,12 +37,12 @@ function NavbarComp() {
             </a>
           </li>
           <li>
-            <a href="/Mannschaften" className="nav-link">
+            <a href="/testrepo/Mannschaften" className="nav-link">
               Mannschaften
             </a>
           </li>
           <li>
-            <a href="/Kontakte" className="nav-link">
+            <a href="/testrepo/Kontakte" className="nav-link">
               Kontakte
             </a>
           </li>
