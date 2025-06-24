@@ -19,9 +19,9 @@ function App() {
       >
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/testrepo/Mannschaften" element={<MannschaftenPage />} />
-          <Route path="/testrepo/Kontakte" element={<Kontakte />} />
-          <Route path="/testrepo/Spieler" element={<Spieler />} />
+          <Route path="/Mannschaften" element={<MannschaftenPage />} />
+          <Route path="/Kontakte" element={<Kontakte />} />
+          <Route path="/Spieler" element={<Spieler />} />
         </Routes>
       </div>
       <div
