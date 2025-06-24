@@ -1,0 +1,36 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative; /* Ensure relative positioning for text overlay */
+}
+
+.textOverlay {
+  position: absolute; /* Positioning for the overlay */
+  bottom: 20px; /* Distance from the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+  padding: 10px 20px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 20px; /* Font size */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow effect */
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional background for better readability */
+}
